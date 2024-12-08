@@ -4,7 +4,7 @@ import Gear2 from './../images/mercedes_gear1.png';
 import Gear3 from './../images/featuredcars_image.png';
 import Gear4 from './../images/mercedes_gear.png';
 import InteriorGear from './../images/interior_gear.png';
-import ReuseableCode from './ReuseableCode/ReuseableCode';
+import ReuseableCode from './reuseableCode/ReuseableCode';
 import Mercedes from './../images/mercedes_gear3.png';
 import LeftArrow from './../images/leftArrow.png';
 import { useNavigate } from 'react-router-dom';

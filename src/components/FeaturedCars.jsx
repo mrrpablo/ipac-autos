@@ -1,5 +1,5 @@
 import React from 'react';
-import ReuseableCode from './ReuseableCode/ReuseableCode';
+import ReuseableCode from './reuseableCode/ReuseableCode';
 import LandingMotor from './../images/landing_motor.png';
 import FeaturedSlide from './slides/featured-slides/featuredSlide';
 import FeaturedImage from './../images/featuredcars_image.png';

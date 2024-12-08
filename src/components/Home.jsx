@@ -10,7 +10,7 @@ import { Navigation, Pagination } from 'swiper/modules'; // Import modules if ne
 
 import React from 'react';
 import FeaturedSlide from './slides/featured-slides/featuredSlide';
-import ReuseableCode from './ReuseableCode/ReuseableCode';
+import ReuseableCode from './reuseableCode/ReuseableCode';
 import Mercedes from './../images/mercedes_gear3.png';
 import OriginalFeaturedSlide from './slides/featured-slides/OriginalFeaturedSlide';
 
