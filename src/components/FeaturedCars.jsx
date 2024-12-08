@@ -1,7 +1,7 @@
 import React from 'react';
 import ReuseableCode from './reuseableCode/ReuseableCode';
 import LandingMotor from './../images/landing_motor.png';
-import FeaturedSlide from './slides/featured-slides/featuredSlide';
+import FeaturedSlide from './slides/featured-slides/FeaturedSlide';
 import FeaturedImage from './../images/featuredcars_image.png';
 import Mercedes from './../images/mercedes_gear3.png';
 
