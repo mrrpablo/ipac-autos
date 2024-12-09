@@ -13,8 +13,13 @@ import FeaturedSlide from './slides/featured-slides/FeaturedSlide';
 import ReuseableCode from './reuseableCode/ReuseableCode';
 import Mercedes from './../images/mercedes_gear3.png';
 import OriginalFeaturedSlide from './slides/featured-slides/OriginalFeaturedSlide';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+  const navigate = useNavigate();
+  const featuredcars = () => {
+    navigate('/featured-cars');
+  };
   return (
     <div className='pt-10 pb-24'>
       {/* iPAC Autos */}
@@ -42,7 +47,7 @@ function Home() {
           <h3 className='xs:text-[20px] text-[32px] font-[500] text-[#CEFFCE]'>
             Featured cars
           </h3>
-          <Button name='See More' />
+          <Button name='See More' onClick={featuredcars} />
         </div>
         {/* small screens */}
         <div className='flex justify-between  pl-[30px] my-4 md:hidden'>
@@ -185,7 +190,7 @@ function Home() {
       {/* Why choose us */}
       <div className='xl:px-[100px] px-[32px] my-[100px]'>
         <h3 className='text-[32px] text-[#CEFFCE] my-5'>Why choose us</h3>
-        <div className='flex flex-col lg:flex-row items-center  lg:justify-evenly justify-center flex-wrap'>
+        <div className='flex flex-col lg:flex-row items-center  lg:justify-evenly justify-center flex-wrap gap-5'>
           <div className='w-full md:w-[75%] lg:w-[45%]'>
             <h5 className='text-[#CFFFCE] text-[22px]'>
               Wide selection of vehicles

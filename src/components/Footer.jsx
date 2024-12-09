@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import { useNavigate } from 'react-router-dom';
+import Logo from './../images/Logo.png';
 
 function Footer() {
   const navigate = useNavigate();
@@ -31,8 +32,15 @@ function Footer() {
   const onClick = () => window.open(getWhatsappLink(), '_blank');
 
   return (
-    <div className='text-[#EEF1F2] s:flex s:justify-between s:flex-row md:text-sm xl:px-[100px] px-[30px] pb-[20px] xs:flex-col xs:items-center xs:flex'>
-      <p className='cursor-pointer'>Company logo</p>
+    <div className='text-[#EEF1F2] flex justify-between flex-row md:text-sm xl:px-[100px] px-[20px] sm:px-[30px] pb-[20px] items-center'>
+      <div>
+        <img
+          src={Logo}
+          alt='logo'
+          className='cursor-pointer'
+          onClick={homepage}
+        />
+      </div>
       <ul>
         <li
           className='hover:text-[#CEFFCE] hover:cursor-pointer'
