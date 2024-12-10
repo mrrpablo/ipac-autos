@@ -15,7 +15,7 @@ function OriginalFeaturedSlide({
       }`}
     >
       <h1
-        className='font-[500] xs:text-[20px] text-[22px]'
+        className='font-[500] xs:text-[20px] md:text-[19px] lg:text-[22px]'
         style={{ textAlign: align }}
       >
         {title}

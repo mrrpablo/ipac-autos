@@ -1,4 +1,4 @@
-import logo from './../images/Logo.png';
+import logo from './../images/svg/IPAC_LOGO.svg';
 import { Navigate, useNavigate } from 'react-router-dom';
 import BurgerIcon from './../images/burger_icon.png';
 import { useState } from 'react';
@@ -27,7 +27,7 @@ function Navbar() {
           <img
             src={logo}
             alt='logo'
-            className='cursor-pointer'
+            className='cursor-pointer w-[40%]'
             onClick={homepage}
           />
         </div>

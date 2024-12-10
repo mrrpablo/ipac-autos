@@ -20,6 +20,7 @@ function Home() {
   const featuredcars = () => {
     navigate('/featured-cars');
   };
+
   return (
     <div className='pt-10 pb-24'>
       {/* iPAC Autos */}

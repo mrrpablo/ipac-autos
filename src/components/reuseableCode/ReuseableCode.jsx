@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../Button';
 import { useNavigate } from 'react-router-dom';
+import GetWhatsappLink from '../GetWhatsappLink';
 
 function ReuseableCode({
   image,
@@ -14,11 +15,9 @@ function ReuseableCode({
   undertitle,
   undersubtitle,
 }) {
-  const navigate = useNavigate();
+  
 
-  const contactUs = () => {
-    navigate('/contact-us');
-  };
+  const onClick = () => window.open(GetWhatsappLink(), '_blank');
 
   return (
     <>
@@ -71,7 +70,7 @@ function ReuseableCode({
             ) : null}
             <div className='my-3'>
               {buttoncontent ? (
-                <Button name={buttoncontent} onClick={contactUs} />
+                <Button name={buttoncontent} onClick={onClick} />
               ) : null}
             </div>
           </div>
